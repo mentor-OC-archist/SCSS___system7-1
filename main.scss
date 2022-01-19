@@ -4,12 +4,12 @@
 @import "./utils/mixins";
 @import "./utils/extensions";
 
+@import "./themes/template";
+
 @import "./base/base";
 @import "./base/normalize";
 @import "./base/typography";
 // @import "./vendors/";
-
-@import "./themes/template";
 
 @import "./components/buttons";
 @import "./components/lists";
