@@ -29,32 +29,28 @@
 /*********************************************************************************************************/
 /*********************************************************************************************************/
 /******************PSEUDO-CLASS**************************************************************************/
-$colour-primary:#333;
-$colour-white:#DDD;
-$colour-invalid:orange;
 $txt-input-palette: (
     active: (
-        bg: $colour-primary,
-        border: $colour-primary,
-        txt: $colour-white,
+        bg: $primary,
+        border: $primary,
+        txt: $secondary,
 
     ),
     focus: (
-        bg: $colour-primary,
-        border: $colour-primary,
-        txt: $colour-white,
+        bg: $primary,
+        border: $primary,
+        txt: $secondary,
     ),
     invalid: (
-        bg: $colour-invalid,
-        border: $colour-white,
-        txt: $colour-white,
+        bg: $ternary,
+        border: $secondary,
+        txt: $secondary,
     )
 );
 
-@mixin txt-input-palette($palettes) {
+@mixin txt-input-palette($palette_states) {
 
-    @each $state,
-    $palette in $palettes {
+    @each $state,$palette in $palette_states {
         &:#{$state} {
             border: .1rem solid map-get($palette, border);
             background-color: map-get($palette, bg);
@@ -121,11 +117,6 @@ $txt-input-palette: (
         @content;
     }
 }
-@mixin to-tablette($max: map-get($breakpoints, tablette) + "px") {
-    @media screen and (max-width: $max) {
-        @content;
-    }
-}
 
 @mixin tablette-and-desktop($min: map-get($breakpoints, mobile) + 1 + "px", $max: map-get($breakpoint, desktop) + "px") {
     @media screen and (min-width: $min) {
@@ -152,6 +143,11 @@ $txt-input-palette: (
 }
 
 @mixin to-desktop($max: map-get($breakpoints, desktop) + "px") {
+    @media screen and (max-width: $max) {
+        @content;
+    }
+}
+@mixin to-tablette($max: map-get($breakpoints, tablette) + "px") {
     @media screen and (max-width: $max) {
         @content;
     }

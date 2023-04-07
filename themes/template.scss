@@ -1,5 +1,6 @@
 /**/
 
+
 // DIMENSIONS
 $XS: 5px;
 $S: 10px;
@@ -20,8 +21,8 @@ $_XXL: 5em;
 
 
 // TYPOGRAPHIES
-$titres: 'typography des titre';
-$contenus: 'typography des contenus';
+// $titres: 'typography des titre';
+// $contenus: 'typography des contenus';
 
 
 // FONDS
@@ -31,8 +32,9 @@ $ternary:#99E2D0;
 
 
 // COULEUR TEXTES
-$color-primary: $black;
-$color-secondary: $dark2;
+$primary_text:#000;
+$secondary_text:#FFF;
+$ternary_text:#aaa;
 
 
 // BREAKPOINTS
@@ -43,12 +45,4 @@ $desktop: 1460;
 // $tv: "taille XL";
 $breakpoints:(mobile:$mobile,tablette:$tablette,desktop:$desktop);
 
-
 // ENSEMBLES DE CHARTE GRAPHIQUE
-%titreType0_level1{@extend %font__titre;@extend %bold1;font-size:2em;color:$color-primary;}
-%titreType0_level2{@extend %font__titre;@extend %bold1;font-size:1em;color:$color-primary;}
-%titreType1_level1{@extend %font__content;font-size:2em;color:$color-primary;}
-%titreType1_level2{@extend %font__content;font-size:2em;color:$color-primary;}
-%titreType2_level1,%titre_footer1{@extend %font__content;font-size:1em;color:$color-primary;}
-%titreType2_level2,%titre_footer2{@extend %font__content;font-size:1em;color:$color-primary;}
-

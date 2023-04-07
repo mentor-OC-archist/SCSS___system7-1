@@ -35,35 +35,7 @@ body{
 }
 
 
-@media all and (max-width:$mobile){
-  body{
-    >header{
-      height:75px;
-      text-align: center;
-      >a{>i{}}
-      >img{}
-    }
-    >nav{
-      >form{
-        >input{}
-        >label{>i{}}
-      }
-      >section{
-        >h1{}
-        >p{}
-        >a{}
-      }
-    }
-    >main{
-      >section{}
-      >article{}
-    }
-    >footer{
-      >ul{}
-    }
-  }
-}
-@media all and (min-width:$mobile) and (max-width:$tablette){
+@include mobile-only{
   body{
     &>header{}
     &>nav{}
@@ -76,7 +48,7 @@ body{
     }
   }
 }
-@media all and (min-width:$desktop) and (max-width:$tv){
+@include tablette-only{
   body{
     &>header{}
     &>nav{}
@@ -89,7 +61,7 @@ body{
     }
   }
 }
-@media all and (min-width:$tv){
+@include from-desktop{
   body{
     &>header{}
     &>nav{}
@@ -102,3 +74,4 @@ body{
     }
   }
 }
+

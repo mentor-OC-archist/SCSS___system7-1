@@ -1,25 +1,17 @@
 
+@import "./themes/template";
+@import "./themes/animations";
 @import "./utils/variables";
 @import "./utils/functions";
 @import "./utils/mixins";
 @import "./utils/extensions";
-
-@import "./themes/template";
-@import "./themes/animations";
 
 @import "./base/normalize";
 @import "./base/base";
 @import "./base/typography";
 // @import "./vendors/";
 
-@import "./components/loaders";
-@import "./components/buttons";
-@import "./components/cards";
-@import "./components/forms";
-@import "./components/jumbotrons";
-@import "./components/lists";
-@import "./components/navbars";
-@import "./components/footers";
+// @import "./components/buttons";
 
 @import "./layouts/headers";
 @import "./layouts/navs";
