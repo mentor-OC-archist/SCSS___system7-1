@@ -1,10 +1,11 @@
 /**/
 
 
+// $watch: "taille XS";
 $mobile: 570;
 $tablette: 960;
 $desktop: 1460;
-$tv: "taille XL";
+// $tv: "taille XL";
 $breakpoints:(mobile:$mobile,tablette:$tablette,desktop:$desktop);
 
 $black: black;
