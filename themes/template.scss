@@ -1,31 +1,13 @@
 /**/
 
 
-// DIMENSIONS
-$XS: 5px;
-$S: 10px;
-$S_: 15px;
-$M: 20px;
-$L: 30px;
-$XL: 50px;
-$XXL: 60px;
-$_XS: .25em;
-$_S: .5em;
-$_S_: .75em;
-$_M: 1em;
-$_M_: 1.25em;
-$_M__: 1.5em;
-$_L: 2em;
-$_XL: 3em;
-$_XXL: 5em;
-
 
 // TYPOGRAPHIES
 // $titres: 'typography des titre';
 // $contenus: 'typography des contenus';
 
 
-// FONDS
+// COULEURS FONDS
 $primary:#9356DC;
 $secondary:#FF79DA;
 $ternary:#99E2D0;
@@ -45,4 +27,64 @@ $desktop: 1460;
 // $tv: "taille XL";
 $breakpoints:(mobile:$mobile,tablette:$tablette,desktop:$desktop);
 
-// ENSEMBLES DE CHARTE GRAPHIQUE
+// ICONES
+// background:url("path/to/image.webp")
+.fb{}
+.x{}
+.tiktok,.tt{}
+//UTILISER UNICODE
+.home{}
+
+// BALISES DE CHARTE GRAPHIQUE
+h1{
+    // color:;
+    // font-family:;
+    // font-size:;
+    // font-weight:;
+    // _gcsstf
+}
+h2{
+    // color:;
+    // font-family:;
+    // font-size:;
+    // font-weight:;
+    // _gcsstf
+}
+h3{
+    // color:;
+    // font-family:;
+    // font-size:;
+    // font-weight:;
+    // _gcsstf
+}
+h4{
+    // color:;
+    // font-family:;
+    // font-size:;
+    // font-weight:;
+    // _gcsstf
+}
+h5{
+    // color:;
+    // font-family:;
+    // font-size:;
+    // font-weight:;
+    // _gcsstf
+}
+h6{
+    // color:;
+    // font-family:;
+    // font-size:;
+    // font-weight:;
+    // _gcsstf
+}
+
+a{
+    // color:;
+    // font-family:;
+}
+
+ul{}
+ol{}
+dt{}
+dd{}

@@ -48,7 +48,7 @@ $txt-input-palette: (
     )
 );
 
-@mixin txt-input-palette($palette_states) {
+@mixin txt-input-palette($palette_states: $txt-input-palette) {
 
     @each $state,$palette in $palette_states {
         &:#{$state} {
@@ -129,7 +129,6 @@ $txt-input-palette: (
 //         @content;
 //     }
 // }
-
 @mixin from-desktop($min: map-get($breakpoints, tablette) + 1 + "px") {
     @media screen and (min-width: $min) {
         @content;
