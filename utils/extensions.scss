@@ -1,4 +1,5 @@
-
+%w100{width: 100%;}
+%h100{height: 100%;}
 
 
 /**/
@@ -41,10 +42,6 @@
 
 
 
-%df{display:flex;}
-%dfc{@extend %df;justify-content: center;align-items: center;}
-%dfch{@extend %df;justify-content: center;}
-%dfcv{@extend %df;align-items: center;}
 
 
 
@@ -53,3 +50,26 @@
 %pe_ba{&::before{content:"";} &::after{content:"";}}
 
 %after_cover{position:relative;&:after{content:"";z-index:100;@extend %goa_trbl;}}
+
+
+
+//OLD flex RULES SYSTEM
+/** */
+/** */
+            %df{display:flex;}
+            %dfc{@extend %df;justify-content: center;align-items: center;}
+            %dfch{@extend %df;justify-content: center;}
+            %dfcv{@extend %df;align-items: center;}
+/* **/
+/* **/
+//NEW  flex RULES SYSTEM 
+%df{display: flex;}
+%dfc{@extend %df;flex-flow: column;}
+%dfw{display: flex;flex-wrap:wrap;}
+%dfcw{@extend %df;flex-flow: column wrap;}
+%dfr-cc{@extend %df;@extend %w100;   justify-content: center;align-items: center;}
+%dfr-hc{@extend %df;@extend %w100;   justify-content: center;}
+%dfr-vc{@extend %df;@extend %w100;   align-items: center;}
+%dfc-cc{@extend %dfc;@extend %h100;  justify-content: center;align-items: center;}
+%dfc-hc{@extend %dfc;@extend %h100;  align-items: center;}
+%dfc-vc{@extend %dfc;@extend %h100;  justify-content: center;}

@@ -4,7 +4,7 @@
     padding:3em 1em;
     counter-reset: i;
     &__titre {
-        @extend %titreType1_level2;
+        // @extend %titreType1_level2;
     }
     &__liste {
         @include from-desktop{

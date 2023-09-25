@@ -1,3 +1,11 @@
+%addToCart{
+    // width: 100px;
+    // height:40px;
+    background: url(../img/addToCart.png) center center no-repeat;
+    background-size: contain;
+    // border-radius:10px;
+}
+
 %modal {
     z-index: 100;
     position: fixed;
