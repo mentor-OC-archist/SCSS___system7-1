@@ -26,6 +26,15 @@ $tablette: 960;
 $desktop: 1460;
 // $tv: "taille XL";
 $breakpoints:(mobile:$mobile,tablette:$tablette,desktop:$desktop);
+//BOOTSTRAP BREAKPOINTS
+// $b5_watch: "taille XS";
+$b5_mobile: 575;
+$b5_tablette: 767;
+$b5_desktop: 991;
+$b5_bigScreen: 1299;
+$b5_tv: 1399;
+// $b5_tv: "taille XL";
+$b5_breakpoints:(mobile:$b5_mobile,tablette:$b5_tablette,desktop:$b5_desktop);
 
 // ICONES
 // background:url("path/to/image.webp")

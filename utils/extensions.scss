@@ -67,9 +67,22 @@
 %dfc{@extend %df;flex-flow: column;}
 %dfw{display: flex;flex-wrap:wrap;}
 %dfcw{@extend %df;flex-flow: column wrap;}
-%dfr-cc{@extend %df;@extend %w100;   justify-content: center;align-items: center;}
-%dfr-hc{@extend %df;@extend %w100;   justify-content: center;}
-%dfr-vc{@extend %df;@extend %w100;   align-items: center;}
-%dfc-cc{@extend %dfc;@extend %h100;  justify-content: center;align-items: center;}
-%dfc-hc{@extend %dfc;@extend %h100;  align-items: center;}
-%dfc-vc{@extend %dfc;@extend %h100;  justify-content: center;}
+%dfr-cc{@extend %df;   justify-content: center;align-items: center;}
+%dfr-hc{@extend %df;   justify-content: center;}
+%dfr-vc{@extend %df;   align-items: center;}
+%dfc-cc{@extend %dfc;  justify-content: center;align-items: center;}
+%dfc-hc{@extend %dfc;  align-items: center;}
+%dfc-vc{@extend %dfc;  justify-content: center;}
+%dfr-cc100{@extend %df;@extend %w100;   justify-content: center;align-items: center;}
+%dfr-hc100{@extend %df;@extend %w100;   justify-content: center;}
+%dfr-vc100{@extend %df;@extend %w100;   align-items: center;}
+%dfc-cc100{@extend %dfc;@extend %h100;  justify-content: center;align-items: center;}
+%dfc-hc100{@extend %dfc;@extend %h100;  align-items: center;}
+%dfc-vc100{@extend %dfc;@extend %h100;  justify-content: center;}
+
+
+
+
+//FORM RULES
+
+

@@ -125,6 +125,12 @@ $txt-input-palette: (
 //         @content;
 //     }
 // }
+@mixin from-bigScreen($min: map-get($breakpoints, desktop) + 1 + "px") {
+    @media screen and (min-width: $min) {
+        @content;
+    }
+}
+
 @mixin from-desktop($min: map-get($breakpoints, tablette) + 1 + "px") {
     @media screen and (min-width: $min) {
         @content;

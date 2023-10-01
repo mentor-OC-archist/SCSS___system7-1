@@ -113,9 +113,6 @@ body{
       }
     }
     >section{
-      @extend %gof_tr;
-      z-index: 9999;
-      border: solid;
       &.logIn{}
       &.loggedIn{}
     }
