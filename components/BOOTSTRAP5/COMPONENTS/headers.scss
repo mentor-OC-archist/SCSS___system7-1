@@ -39,7 +39,8 @@ box-shadow(color), background, border-color
 
 
     @extend %dfr-cc;
-    &:not(.--forth):not(.--dark):not(.--grid):not(.--doubleHeader){@extend .container_;} 
+    // &:not(.--forth):not(.--dark):not(.--grid):not(.--doubleHeader){@extend .container_;} 
+    &:not(.--forth):not(.--dark):not(.--grid):not(.--doubleHeader){@extend .container;} 
     @extend .py-3;
     @extend .mb-4;
     @extend .border-bottom;
