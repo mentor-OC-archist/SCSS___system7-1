@@ -293,7 +293,7 @@ box-shadow(color), background, border-color
     // &__SearchBox 
     // &__SignInOut 
     // &__Forms 
-    >form,>nav>form
+    >form,>nav,>nav>form
     {
         @extend %B5-Headers__Forms;
     }
